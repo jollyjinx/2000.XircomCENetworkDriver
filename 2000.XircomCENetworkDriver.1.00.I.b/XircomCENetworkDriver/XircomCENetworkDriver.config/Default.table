@@ -1,0 +1,18 @@
+"Title" = "XircomCE PCMCIA";
+"Bus Type" = "PCMCIA";
+"Family" = "Network";
+"Location" = "";
+"DMA Channels" = "";
+"Instance" = "0";
+"Class Names" = "XircomCE";
+"Server Name" = "XircomCENetworkDriver";
+"Auto Detect IDs" = "MFR=Xircom";
+"I/O Ports" = "0x300-0x30F";
+"Valid I/O Ports" = "0x300-0x30F";
+"Memory Maps" = "0x0D0000-0xD0FFF";
+"IRQ Levels" = "10";
+"Valid IRQ Levels" = "2 3 4 5 7 9 10 11 15";
+"Help File" = "XircomCE.rtfd";
+"Version" = "1.00";
+"Driver Version" = "PROGRAM:XircomCENetworkDriver PROJECT:ce-driver DEVELOPER:jolly@jinx.de BUILT:May 2000";
+"Server Name" = "XircomCENetworkDriver";

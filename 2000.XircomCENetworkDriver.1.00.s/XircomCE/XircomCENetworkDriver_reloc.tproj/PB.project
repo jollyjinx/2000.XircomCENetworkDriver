@@ -1,0 +1,13 @@
+LANGUAGE = English;
+FILESTABLE = {
+    OTHER_SOURCES = (Makefile, Makefile.preamble, Makefile.postamble, Makefile.driver_preamble, Load_Commands.sect);
+    H_FILES = (XircomCE.h);
+    CLASSES = (XircomCE.m);
+};
+LOCALIZABLE_FILES = {
+};
+
+PROJECTVERSION = 1.1;
+PROJECTNAME = XircomCENetworkDriver_reloc;
+PROJECTTYPE = Tool;
+GENERATEMAIN = YES;

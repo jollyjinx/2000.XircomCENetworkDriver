@@ -1,0 +1,21 @@
+# The info file for version 3.31 of the XircomRealport Adapter device driver
+
+# These fields will be displayed in the Info View
+Title		XircomCE Device Driver
+Version		NEXTSTEP Release 3.3, Driver Version 3.31 
+Description	This package contains version 3.31 of controller drivers for XircomCE like Adapters. Install it only on Intel-based computers running NEXTSTEP Release 3.3. After installing this device driver, use Configure.app to add and configure it to work with NEXTSTEP.
+
+
+# These fields are used for the installed and floppy locations
+DefaultLocation		/
+Relocatable		NO
+Diskname		XircomCE #%d
+
+# Other fields <stuff below is always the same unless RC says different> 
+Application		NO
+LibrarySubdirectory	Standard
+InstallOnly 		YES
+DisableStop		YES
+LongFilenames		YES
+
+

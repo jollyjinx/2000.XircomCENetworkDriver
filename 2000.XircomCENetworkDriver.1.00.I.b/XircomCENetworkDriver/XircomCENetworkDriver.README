@@ -1,0 +1,25 @@
+
+Xircom CE driver ( version 1.00 may 2000 )
+
+This is a FREE driver for Nextstep / Openstep supporting the Xircom CreditCards with the 10/100 MBit interface without modem ( in case you have a modem use the CEM driver ). 
+
+INSTALLATION
+
+As root double click on the XircomCENetworkDriver.config directory - Configure.app should then ask if it should install the driver.
+
+IN CASE OF PROBLEMS
+
+This driver	has not been tested and probably has some problems, cause I don't have such a card myself. It worked for 10 minutes of testing fine - but that's it. Cause the PCMCIA Bus Driver from NeXT/OpenStep is kind of intelligent it's possible that the driver doesn't work in you system right from the start but here are a few tricks that might enable you to use the driver anyways:
+
+If you don't see a message 'XircomCEdriver: +probe: called.' in /usr/adm/messages - the driver doesn't get loaded at all. You might then check for the propper settings ( using expert settings in Configure.app ) .
+It's likely that the "I/O Ports", the "Auto Detect IDs", "Memory Maps" or "IRQ Levels" are wrong. In case you think that the settings are correct and you still don't see the 'XircomCEdriver: +probe: called' message turn on debugging on the PCMCIABus. Insert a field "Verbose" = "Yes" to the PCMCIABus configuration ( expert setting in Configure.app ).
+If you still can't get the driver to load - I'm out of ideas.
+
+If you see the message: XircomCEdriver - wrong bonding version - than you have the chips on you card might not work and the driver stops at that point - ask me via mail to send you a debug version to see if the driver might work.
+
+If you see the message: XircomCEdriver - init called. and the card does not work - UNINSTALL the driver IMMEDIATELY cause it might crash your system. Send me a note and we figure out what might be going on.
+
+
+Have a nice day - Patrick Stein <jollyA@T.JinxDOT.de>
+
+

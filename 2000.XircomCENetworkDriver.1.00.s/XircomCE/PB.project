@@ -1,0 +1,22 @@
+BUNDLE_EXTENSION = config;
+LOCALIZABLE_FILES = {
+    DriverHelp;
+    Localizable.strings;
+};
+PROJECTVERSION = 1.1;
+INSTALLDIR = /usr/Devices;
+PROJECTTYPE = Bundle;
+PROJECTNAME = XircomCENetworkDriver;
+GENERATEMAIN = YES;
+LANGUAGE = English;
+FILESTABLE = {
+    CLASSES = ();
+    OTHER_RESOURCES = (Default.table, DriverHelp);
+    BUNDLES = ();
+    OTHER_SOURCES = (Makefile, Makefile.preamble, Makefile.postamble, Makefile.private, XircomCENetworkDriver.info);
+    H_FILES = ();
+    INTERFACES = ();
+    STRINGS_FILES = (Localizable.strings);
+    SUBPROJECTS = ();
+    TOOLS = (XircomRealportCEDriver_reloc.tproj);
+};
